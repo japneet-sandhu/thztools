@@ -1390,7 +1390,7 @@ class TestETFE:
         result = etfe(x, y, n = 8)
         assert np.allclose(result, expected)
 
-    def test_n_less_than_xlen():
+    def test_n_less_than_xlen(self):
         x = np.array([0.0512, 0.5913, 0.4230, 
                 0.7401, 0.4780, 0.3536])
         y = np.array([0.0814, 0.7072, 0.1607, 
